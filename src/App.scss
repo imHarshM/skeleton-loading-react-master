@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+:root {
+  --main-bg: #020b21;
+  --main-bg-light: #262f40;
+  --font: #fefefe;
+  --highlight: #1dc8cd;
+}
+
+.header,
+.footer {
+  background: var(--main-bg-light);
+  color: var(--font);
+}
